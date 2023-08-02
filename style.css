@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  body{
+    background-image: url(fondo.jpg);
+  }
+  
+  .contenedor_principal{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .contenedor_barra{
+   height: 80px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 5px 0;  
+  
+  }
+  .barra {
+    width: 100%;
+    height: 48px;
+    padding: 0 24px 0 24px;
+   display:flex;
+   justify-content:center;
+   
+  }
+  
+  .logo{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    
+  }
+  
+  .logo img{
+    height:500px;
+
+  }
+  
+  .barra input {
+    width: 100%;
+    height: 48px;
+    border-radius: 60px;
+    background-color: rgba(173, 42, 199, 0.1);
+    border: none;
+    color: rgb(8, 8, 8);
+    padding-left: 20px;
+    font-size: 16px;
+   
+  }
+  
+  .contenedor_tarjetas{
+    width: 80%;
+    height: auto;
+    background-color: rgb(253, 253, 253);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+    
+  }
+  .tarjeta{
+    width:100%;
+    height:300px;
+    border: solid rgb(27, 26, 26);
+   position:relative;
+  
+  }
+  
+  .tarjetaBack{
+    width:100%;
+    height:100%;
+     background-color:mediumturquoise;
+    position: absolute;
+    top:.1px;
+    display:flex;
+    padding-left:10px;
+    padding-right:10px;
+   
+  }
+  
+  
+  .lista{
+    width:5px;
+    margin-bottom:10px;
+    padding-left:1px;
+    font-size:14px;
+  }
+  
+  .titulo{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .imgTarjeta{
+    width: 60%;
+    height: auto;
+    background-color: whitesmoke;
+  
+  
+  }
+  
+  .typePoke{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;  
+  }
+  
+  .divImg{
+   
+    width: 100%;
+    display: flex;
+   justify-content: center;
+  }
+  
+  
+  
+  
+  button{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .surprise {
+    display: none;
+  }
+  
+  .tarjeta:hover .surprise {
+    display: block;
+  }
+  
+  .bold{
+   font-weight:bold;   
+  }
